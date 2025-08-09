@@ -33,8 +33,8 @@ let topics =trendingTopics.map(topic=> {
 console.log(topics);
 
 
-let volume= trendingTopics.map(topic=> {
-	return topic.volume;
+let volume= trendingTopics.map(topics=> {
+	return topics.volume;
 })
 console.log(volume);
  const myChart = document.getElementById("myChart")
@@ -124,5 +124,6 @@ console.log}) ;
 
 // const myChart = document.getElementById("myChart")
 // console.log(myChart)
+
 
 
