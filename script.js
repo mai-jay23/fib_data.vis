@@ -33,10 +33,10 @@ let topics =trendingTopics.map(topic=> {
 console.log(topics);
 
 
-let volumes= trendingTopics.map(topic=> {
-	return topic.volumes;
+let volume= trendingTopics.map(topic=> {
+	return topic.volume;
 })
-console.log(volumes);
+console.log(volume);
  const myChart = document.getElementById("myChart")
 console.log(myChart)
 
@@ -51,7 +51,7 @@ let barChart = new Chart(myChart, {
 
            label: '# of tweets/xeets',
 
-            data: volumes,
+            data: volume,
 
             borderWidth: 2,
 
@@ -105,7 +105,7 @@ scales: {
  }
  }
  }); 
-console.log(result)}) ;
+console.log}) ;
 
 
 // let myPost ={
@@ -124,4 +124,5 @@ console.log(result)}) ;
 
 // const myChart = document.getElementById("myChart")
 // console.log(myChart)
+
 
